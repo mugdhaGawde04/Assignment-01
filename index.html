@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome User pg</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <div class="header">
+                <div class="title"><h1>Welcome User</h1></div>
+                <div class="sub-title">Please Enter your details.</div>
+            </div>
+            <div class="input-box">
+                <div class="input-row">
+                    <div class="input-title">Name</div>
+                    <div class="text-input input-section">
+                        <input id="name" type="text" placeholder="Enter Your Name">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-title">Birth Date</div>
+                    <div class="date-input input-section">
+                        <select id="month" name="month">
+                            <option value="0">January</option>
+                            <option value="1">February</option>
+                            <option value="2">March</option>
+                            <option value="3">April</option>
+                            <option value="4">May</option>
+                            <option value="5">June</option>
+                            <option value="6">July</option>
+                            <option value="7">August</option>
+                            <option value="8">September</option>
+                            <option value="9">October</option>
+                            <option value="10">November</option>
+                            <option value="11">December</option>
+                        </select>
+                        <input id="day" type="number" min="1" max="31" placeholder="Day">
+                        <input id="year" type="number" min="1920" max="2060" placeholder="year" >
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-title">Email Id</div>
+                    <div class="email-input input-section">
+                        <input id="email" type="email" placeholder="Enter Your Name">
+                    </div>
+                </div>
+            </div>
+            <div class="submit">
+                <a class="submit-button" href="table.html" onclick="saveData()">Submit</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
