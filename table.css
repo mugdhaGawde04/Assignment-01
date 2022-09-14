@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.back-button a{
+    text-decoration: none;
+    color: #c4c4c4;
+    font-size: 20px;
+}
+.back-button{
+    margin-bottom: 10px;
+}
+.main{
+    width: 60%;
+    margin: 50px auto;
+    max-width: 400px;
+    min-width: 240px;
+}
+.title{
+    font-size: 28px;
+    font-weight: 700;
+}
+.sub-title{
+    color: #c4c4c4;
+}
+.table-container-box{
+    margin-top: 20px;
+}
+#data-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-container-box table tr td,
+.table-container-box table tr th{
+    padding: 10px 8px;
+    text-align: center;
+}
